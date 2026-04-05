@@ -1,12 +1,20 @@
- function Home () {
+import Hero from "./Hero"
+import About from "./About"
+import Projects from "./Projects"
+import Skills from "./Skills"
+import Contact from "./Contact"
 
-    return(
-        <>
-            <div>
-
-            </div>
-        </>
-    )
- }
-
- export default Home
+function Home() {
+  return (
+    <div>
+        <Hero />
+        <About />
+        <Projects />
+        <Skills />
+        <Contact />
+    </div>
+  )
+}
+ 
+export default Home
+ 
